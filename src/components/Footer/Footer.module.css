@@ -1,0 +1,72 @@
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  
+  h3 {
+    color: #3498db;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  p, ul {
+    font-size: 16px;
+    color: #ccc;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #3498db;
+  }
+  
+  .contactUs, .address, .company, .resources, .join, .social {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footerBottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  @media (min-width: 768px) {
+    .footer {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .footer div {
+      max-width: 220px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .footer {
+      padding: 40px 60px;
+    }
+  }
+  

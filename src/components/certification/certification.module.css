@@ -1,0 +1,56 @@
+.contain {
+  display: flex;
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+
+.leftSection {
+  flex: 1;
+  padding: 20px;
+  width: 400px;
+  justify-content: center;
+  text-align: center;
+  color: black;
+}
+
+.rightSection {
+  position: sticky;
+  top: 0;
+  right: 0;
+  width: 600px;
+  height: auto;
+  color: black;
+  background-color: #f6f3f3;
+  padding: 10px;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.buttonList {
+  list-style-type: none;
+  padding: 0;
+  color: black;
+}
+
+.buttonList li {
+  margin: 10px 0;
+  color: black;
+}
+.rightSection h3 {
+  text-align: center;
+}
+
+.buttonList button {
+  padding: 10px;
+  width: 100%;
+  background-color: #73aeb5;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

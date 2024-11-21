@@ -1,0 +1,84 @@
+.body {
+  width: 100%;
+  height: auto;
+}
+.navbar {
+  top: 0;
+
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #3a5c8a;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+  border-radius: 50px;
+}
+
+.navButtons {
+  display: flex;
+  gap: 15px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.loginButton {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.loginButton:hover {
+  background-color: #0056b3;
+}
+
+.dropdown {
+  position: absolute;
+  top: 80px;
+
+  right: 10%;
+  background-color: #f2f4f4;
+  border: 1px solid #191616;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  z-index: 1000;
+  color: #191616;
+}
+
+.dropdownList {
+  list-style-type: none;
+  color: #191616;
+}
+
+.dropdownItem {
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dropdownItem:hover {
+  background-color: #adc5cc;
+}

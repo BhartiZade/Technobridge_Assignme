@@ -1,0 +1,42 @@
+.wrapp {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .titlee {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #2a537a;
+    color: #fff;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f1f1f1;
+  }
+  
+  .table tr:hover {
+    background-color: #e6f7ff;
+  }
+  
